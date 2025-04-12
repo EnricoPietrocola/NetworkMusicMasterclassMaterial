@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 717.0, 84.0, 648.0, 900.0 ],
+		"rect" : [ 34.0, 77.0, 1639.0, 908.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -204,7 +204,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -5.0, 359.0, 208.0, 89.0 ],
+					"patching_rect" : [ -5.0, 359.0, 211.0, 89.0 ],
 					"text" : "Potete inserire dentro questo subpatcher eventuali calcoli per variare la frequenza (moltiplicazioni o divisioni). Questo farà diventare il vostro suono una delle armoniche del suono"
 				}
 
@@ -263,7 +263,7 @@
 
 							}
  ],
-						"originid" : "pat-485"
+						"originid" : "pat-38"
 					}
 ,
 					"patching_rect" : [ 205.0, 389.0, 118.0, 22.0 ],
@@ -292,7 +292,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 56.0, 202.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "address http://enricopietrocola.com:5000"
 				}
 
@@ -342,17 +341,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 431.0, 282.0, 35.0, 22.0 ],
 					"text" : "clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-30",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 507.0, 123.157885193824768, 20.0 ],
-					"text" : "Define a frequency"
 				}
 
 			}
