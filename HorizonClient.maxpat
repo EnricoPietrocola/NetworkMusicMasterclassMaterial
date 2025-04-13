@@ -140,7 +140,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 422.0, 205.0, 26.0, 24.0 ],
+					"patching_rect" : [ 415.5, 223.0, 26.0, 24.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -160,7 +160,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 422.0, 96.0, 26.0, 24.0 ],
+					"patching_rect" : [ 415.5, 114.0, 26.0, 24.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -173,7 +173,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 454.0, 207.0, 106.0, 20.0 ],
+					"patching_rect" : [ 447.5, 225.0, 106.0, 20.0 ],
 					"text" : "Unirsi alla stanza"
 				}
 
@@ -184,7 +184,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 454.0, 98.0, 253.0, 20.0 ],
+					"patching_rect" : [ 447.5, 116.0, 253.0, 20.0 ],
 					"text" : "Selezionare il server da cui ricevere i dati"
 				}
 
@@ -258,7 +258,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 406.0, 327.0, 31.0, 22.0 ],
+					"patching_rect" : [ 399.5, 345.0, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -271,7 +271,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.0, 132.0, 202.0, 36.0 ],
+					"patching_rect" : [ 399.5, 150.0, 202.0, 36.0 ],
 					"text" : "address http://enricopietrocola.com:5000"
 				}
 
@@ -283,8 +283,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.0, 237.0, 128.0, 22.0 ],
-					"text" : "roomName Percussa1"
+					"patching_rect" : [ 399.5, 255.0, 113.0, 22.0 ],
+					"text" : "roomName Horizon"
 				}
 
 			}
@@ -295,7 +295,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 239.0, 132.0, 165.0, 22.0 ],
+					"patching_rect" : [ 232.5, 150.0, 165.0, 22.0 ],
 					"text" : "address http://127.0.0.1:5000"
 				}
 
@@ -307,7 +307,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 406.0, 275.0, 79.0, 22.0 ],
+					"patching_rect" : [ 399.5, 293.0, 79.0, 22.0 ],
 					"text" : "CidLinkClient"
 				}
 
