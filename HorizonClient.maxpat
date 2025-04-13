@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-48",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 852.0, 364.0, 443.0, 186.0 ],
+					"text" : "Il serves invia due tipi principali di messaggi\n1) Un \"ID\" e \"bang\", che triggerano il suono del performer di numero ID\n2) \"clear\", che rimuove l'inviluppo d'ampiezza e lascia suonare l'oscillatore a 1 di ampiezza\n\nQuesto semplice routing praticamente permette di filtrare messaggi \"globali\", che verranno eseguiti da tutti, da messaggi destinati ad un utente in particolare, in base all'ID.\n\nEsistono vari modi di fare un routing di questo tipo, con routing come in questo caso, ma anche usando gli indirizzi di rete delle persone connesse o usando delle stanze ad hoc per creare più sottogruppi di utenti. Quale tipo di routing scegliere dipende molto dal tipo di necessità tecniche della performance o installazione."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontname" : "Arial Bold",
 					"hint" : "",
@@ -50,7 +62,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 757.0, 272.0, 45.0, 22.0 ],
+					"patching_rect" : [ 768.0, 228.0, 45.0, 22.0 ],
 					"text" : "2 bang"
 				}
 
@@ -62,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 272.0, 45.0, 22.0 ],
+					"patching_rect" : [ 719.0, 228.0, 45.0, 22.0 ],
 					"text" : "1 bang"
 				}
 
@@ -74,7 +86,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.0, 272.0, 35.0, 22.0 ],
+					"patching_rect" : [ 669.0, 228.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -306,7 +318,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 284.0, 516.0, 42.105259895324707, 20.0 ],
+					"patching_rect" : [ 780.894740104675293, 296.0, 42.105259895324707, 20.0 ],
 					"text" : "My ID"
 				}
 
@@ -330,7 +342,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 759.0, 359.0, 71.0, 22.0 ],
+					"patching_rect" : [ 759.0, 383.0, 71.0, 22.0 ],
 					"text" : "route i clear"
 				}
 
