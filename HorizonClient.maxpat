@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-50",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 825.0, 643.0, 150.0, 62.0 ],
+					"text" : "E' importante per questo esercizio che l'ultimo punto dell'inviluppo sia a 0 sull'asse y."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-48",
 					"linecount" : 13,
 					"maxclass" : "comment",
@@ -112,18 +124,6 @@
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 669.0, 549.0, 32.0, 22.0 ],
 					"text" : "t b b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 511.0, 327.0, 42.0, 22.0 ],
-					"text" : "switch"
 				}
 
 			}
@@ -397,7 +397,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 1.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 5.531914893617022, 1.0, 0, 0.0, 19.893617021276597, 0.0, 0, 0.0 ],
 					"classic_curve" : 1,
 					"domain" : 20.0,
 					"id" : "obj-10",
