@@ -10,16 +10,88 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 612.0, 894.0 ],
+		"rect" : [ 35.0, 84.0, 783.0, 894.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 540.0, 563.0, 45.0, 20.0 ],
+					"text" : "Pitch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 486.0, 562.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 414.5, 589.0, 29.5, 22.0 ],
+					"text" : "+ 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 346.0, 223.0, 301.0, 62.0 ],
+					"text" : "Scaletta\n\n1) Connettere tutti, soundcheck con bang su random\n2) Midi"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 276.0, 758.0, 202.0, 36.0 ],
+					"text" : "address http://enricopietrocola.com:5000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 109.0, 758.0, 165.0, 22.0 ],
+					"text" : "address http://127.0.0.1:5000"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 246.0, 323.0, 43.0, 22.0 ],
+					"patching_rect" : [ 380.5, 359.0, 43.0, 22.0 ],
 					"text" : "* 1024"
 				}
 
@@ -32,7 +104,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 246.0, 266.0, 41.0, 48.0 ],
+					"patching_rect" : [ 380.5, 302.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
@@ -58,7 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 562.0, 32.0, 22.0 ],
+					"patching_rect" : [ 414.5, 613.0, 32.0, 22.0 ],
 					"text" : "mtof"
 				}
 
@@ -71,7 +143,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 280.0, 526.0, 50.0, 22.0 ]
+					"patching_rect" : [ 414.5, 562.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -82,7 +154,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 279.0, 485.0, 59.0, 22.0 ],
+					"patching_rect" : [ 413.5, 521.0, 59.0, 22.0 ],
 					"text" : "unpack i i"
 				}
 
@@ -94,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-					"patching_rect" : [ 279.0, 455.0, 92.5, 22.0 ],
+					"patching_rect" : [ 413.5, 491.0, 92.5, 22.0 ],
 					"text" : "midiparse"
 				}
 
@@ -108,7 +180,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 323.5, 59.0, 23.0 ],
+					"patching_rect" : [ 319.5, 360.0, 59.0, 23.0 ],
 					"text" : "stop"
 				}
 
@@ -121,7 +193,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 163.0, 325.0, 20.0, 20.0 ]
+					"patching_rect" : [ 297.5, 361.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -134,7 +206,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 357.0, 52.0, 23.0 ],
+					"patching_rect" : [ 380.5, 393.0, 52.0, 23.0 ],
 					"text" : "start $1"
 				}
 
@@ -148,7 +220,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "bang", "" ],
-					"patching_rect" : [ 279.0, 423.0, 40.0, 23.0 ],
+					"patching_rect" : [ 413.5, 459.0, 40.0, 23.0 ],
 					"text" : "seq"
 				}
 
@@ -162,7 +234,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 357.0, 57.0, 23.0 ],
+					"patching_rect" : [ 454.5, 393.0, 57.0, 23.0 ],
 					"text" : "read"
 				}
 
@@ -174,7 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.0, 592.0, 79.0, 22.0 ],
+					"patching_rect" : [ 238.5, 263.0, 79.0, 22.0 ],
 					"text" : "random 5000"
 				}
 
@@ -186,7 +258,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 289.0, 685.0, 252.0, 48.0 ],
+					"patching_rect" : [ 289.0, 685.0, 255.0, 48.0 ],
 					"text" : "Definisco un client che si connette localmente al server e invia dei messaggi che verrano inoltrati a tutti quelli nella stanza Percussa1"
 				}
 
@@ -211,7 +283,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 172.0, 552.0, 24.0, 24.0 ]
+					"patching_rect" : [ 238.5, 223.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -222,7 +294,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 644.0, 128.0, 22.0 ],
+					"patching_rect" : [ 109.0, 793.0, 128.0, 22.0 ],
 					"text" : "roomName Percussa1"
 				}
 
@@ -255,12 +327,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 426.0, 142.0, 50.0, 22.0 ],
-					"text" : "\"4306\""
+					"patching_rect" : [ 426.0, 142.0, 50.0, 50.0 ],
+					"text" : "\"92.49860579444545\""
 				}
 
 			}
@@ -271,7 +344,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 102.0, 689.0, 163.0, 22.0 ],
+					"patching_rect" : [ 109.0, 838.0, 163.0, 22.0 ],
 					"text" : "CidLinkClient 127.0.0.1 5000"
 				}
 
@@ -298,8 +371,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -340,6 +427,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -368,7 +462,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -403,13 +497,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-63",
+		"originid" : "pat-313",
 		"parameters" : 		{
 			"obj-40" : [ "live.dial", "Speed", 0 ],
 			"parameterbanks" : 			{

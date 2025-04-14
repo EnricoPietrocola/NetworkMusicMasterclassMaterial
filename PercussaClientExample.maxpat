@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1639.0, 908.0 ],
+		"rect" : [ 888.0, 84.0, 783.0, 900.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -263,7 +263,7 @@
 
 							}
  ],
-						"originid" : "pat-38"
+						"originid" : "pat-285"
 					}
 ,
 					"patching_rect" : [ 205.0, 389.0, 118.0, 22.0 ],
@@ -346,7 +346,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 2.659574468085106, 0.986666666666667, 0, 0.0, 500.0, 0.0, 0, -0.7 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 21.276595744680851, 1.0, 0, -0.65, 63.829787234042556, 0.0, 0, 0.6 ],
 					"classic_curve" : 1,
 					"domain" : 500.0,
 					"id" : "obj-10",
@@ -636,7 +636,7 @@
 
 			}
  ],
-		"originid" : "pat-36",
+		"originid" : "pat-283",
 		"parameters" : 		{
 			"obj-5" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
