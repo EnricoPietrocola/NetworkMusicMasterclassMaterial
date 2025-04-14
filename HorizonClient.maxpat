@@ -10,16 +10,52 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1333.0, 908.0 ],
+		"rect" : [ 34.0, 77.0, 1639.0, 908.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 411.0, 564.0, 90.0, 22.0 ],
+					"text" : "loadmess 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-22",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 411.0, 618.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 545.0, 371.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-50",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.0, 643.0, 150.0, 62.0 ],
+					"patching_rect" : [ 825.0, 643.0, 152.0, 62.0 ],
 					"text" : "E' importante per questo esercizio che l'ultimo punto dell'inviluppo sia a 0 sull'asse y."
 				}
 
@@ -31,8 +67,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 852.0, 364.0, 443.0, 186.0 ],
-					"text" : "Il serves invia due tipi principali di messaggi\n1) Un \"ID\" e \"bang\", che triggerano il suono del performer di numero ID\n2) \"clear\", che rimuove l'inviluppo d'ampiezza e lascia suonare l'oscillatore a 1 di ampiezza\n\nQuesto semplice routing praticamente permette di filtrare messaggi \"globali\", che verranno eseguiti da tutti, da messaggi destinati ad un utente in particolare, in base all'ID.\n\nEsistono vari modi di fare un routing di questo tipo, con routing come in questo caso, ma anche usando gli indirizzi di rete delle persone connesse o usando delle stanze ad hoc per creare più sottogruppi di utenti. Quale tipo di routing scegliere dipende molto dal tipo di necessità tecniche della performance o installazione."
+					"patching_rect" : [ 852.0, 364.0, 446.0, 186.0 ],
+					"text" : "Il server invia due tipi principali di messaggi\n1) Un \"ID\" e \"bang\", che triggerano il suono del performer di numero ID\n2) \"clear\", che rimuove l'inviluppo d'ampiezza e lascia suonare l'oscillatore a 1 di ampiezza\n\nQuesto semplice routing praticamente permette di filtrare messaggi \"globali\", che verranno eseguiti da tutti, da messaggi destinati ad un utente in particolare, in base all'ID.\n\nEsistono vari modi di fare un routing di questo tipo, con routing come in questo caso, ma anche usando gli indirizzi di rete delle persone connesse o usando delle stanze ad hoc per creare più sottogruppi di utenti. Quale tipo di routing scegliere dipende molto dal tipo di necessità tecniche della performance o installazione."
 				}
 
 			}
@@ -74,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 768.0, 228.0, 45.0, 22.0 ],
+					"patching_rect" : [ 758.5, 231.0, 45.0, 22.0 ],
 					"text" : "2 bang"
 				}
 
@@ -86,7 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 719.0, 228.0, 45.0, 22.0 ],
+					"patching_rect" : [ 709.5, 231.0, 45.0, 22.0 ],
 					"text" : "1 bang"
 				}
 
@@ -98,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 669.0, 228.0, 35.0, 22.0 ],
+					"patching_rect" : [ 659.5, 231.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -111,7 +147,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 669.0, 514.0, 24.0, 24.0 ]
+					"patching_rect" : [ 656.0, 502.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -120,10 +156,10 @@
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 669.0, 549.0, 32.0, 22.0 ],
-					"text" : "t b b"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "bang" ],
+					"patching_rect" : [ 656.0, 537.0, 42.0, 22.0 ],
+					"text" : "t b b b"
 				}
 
 			}
@@ -243,23 +279,11 @@
 
 							}
  ],
-						"originid" : "pat-96"
+						"originid" : "pat-8"
 					}
 ,
-					"patching_rect" : [ 411.0, 576.0, 118.0, 22.0 ],
+					"patching_rect" : [ 411.0, 663.0, 118.0, 22.0 ],
 					"text" : "p frequencyVariation"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 399.5, 345.0, 31.0, 22.0 ],
-					"text" : "t b s"
 				}
 
 			}
@@ -397,7 +421,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 5.531914893617022, 1.0, 0, 0.0, 19.893617021276597, 0.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1.595744680851064, 0.906666666666667, 0, 0.0, 4.787234042553192, 0.0, 0, 0.0 ],
 					"classic_curve" : 1,
 					"domain" : 20.0,
 					"id" : "obj-10",
@@ -553,7 +577,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-20", 1 ],
+					"order" : 1,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"order" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -574,20 +607,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-18", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -602,14 +621,35 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"source" : [ "obj-30", 1 ]
+					"source" : [ "obj-30", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -720,7 +760,7 @@
 
 			}
  ],
-		"originid" : "pat-94",
+		"originid" : "pat-6",
 		"parameters" : 		{
 			"obj-5" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
