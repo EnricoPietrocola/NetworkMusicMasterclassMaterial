@@ -15,12 +15,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-55",
-					"linecount" : 11,
+					"linecount" : 21,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 154.0, 563.0, 526.0, 158.0 ],
-					"text" : "1) Connettere\n2) Impostare numero di participanti\n3) Avviare metro con Urn\n4) Ridurre tempo metro\n5) Aumentare tempo metro\n6) Cambiare a counter\n7) Ridurre tempo metro\n8) Ridurre tempo metro\n9) Climax (quando si è vicini allo 0 o quando i computer o la rete iniziano a cedere)\n10) Clear\n11) Stop insieme disattivando il DAC a mano"
+					"patching_rect" : [ 136.0, 546.0, 526.0, 296.0 ],
+					"text" : "1) Connettere tutti su enricopietrocola.com\n2) Impostare numero di participanti\n3) Avviare metro con Urn\n4) Ridurre tempo metro\n5) Aumentare tempo metro\n6) Cambiare a counter\n7) Ridurre tempo metro\n8) Ridurre tempo metro\n9) Climax (quando si è vicini allo 0 o quando i computer o la rete iniziano a cedere)\n10) Clear\n11) Stop insieme disattivando il DAC a mano\n\nSe ci sono problemi di rete con enricopietrocola.com:\n- Aprire hotspot\n- ipconfig, dare IP LAN\n- far connettere tutti a IP LAN:5000\n\nSe avanza tempo:\nAggiungere una nuova funzionalità ad horizon che permetta di gestire il volume del master per creare un fade in per l'inizio e un taglio improvviso del suono per il finale. Così da poter apprezzare un taglio netto del suono ed l'acustica della stanza."
 				}
 
 			}
@@ -38,24 +38,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-52",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 277.0, 409.0, 31.0, 22.0 ],
-					"text" : "stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 559.0, 133.0, 88.0, 20.0 ],
-					"text" : "Urn o Counter"
+					"patching_rect" : [ 541.0, 112.0, 88.0, 20.0 ],
+					"text" : "Urn / Counter"
 				}
 
 			}
@@ -67,7 +55,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 563.0, 157.0, 44.0, 15.0 ],
+					"patching_rect" : [ 545.0, 136.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -91,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 339.0, 306.0, 35.0, 22.0 ],
+					"patching_rect" : [ 347.0, 312.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -99,7 +87,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -136,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 381.0, 306.0, 36.0, 22.0 ],
+					"patching_rect" : [ 389.0, 312.0, 36.0, 22.0 ],
 					"text" : "urn 3"
 				}
 
@@ -246,7 +233,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 451.0, 461.0, 50.0, 22.0 ],
-					"text" : "2 bang"
+					"text" : "3 bang"
 				}
 
 			}
@@ -281,7 +268,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 409.0, 35.0, 22.0 ],
+					"patching_rect" : [ 223.0, 441.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -368,7 +355,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.0, 273.0, 113.0, 22.0 ],
+					"patching_rect" : [ 134.0, 267.0, 113.0, 22.0 ],
 					"text" : "roomName Horizon"
 				}
 
@@ -405,8 +392,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 65.0, 50.0, 36.0 ],
-					"text" : "stdout \"2\""
+					"patching_rect" : [ 197.0, 65.0, 153.0, 36.0 ],
+					"text" : "stdout \"new websocket connection\""
 				}
 
 			}
@@ -417,7 +404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 97.0, 26.0, 150.0, 22.0 ],
+					"patching_rect" : [ 200.0, 32.0, 150.0, 22.0 ],
 					"text" : "CidLinkServer @port 5000"
 				}
 
@@ -583,20 +570,13 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"source" : [ "obj-52", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-53", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-93",
+		"originid" : "pat-199",
 		"parameters" : 		{
 			"obj-48" : [ "live.text", "live.text", 0 ],
 			"parameterbanks" : 			{
