@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 134.0, 1333.0, 908.0 ],
+		"rect" : [ 34.0, 77.0, 1333.0, 908.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -88,8 +88,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 291.0, 682.0, 48.0, 23.0 ],
-					"text" : "sig~ -1"
+					"patching_rect" : [ 291.0, 682.0, 44.0, 23.0 ],
+					"text" : "sig~ 1"
 				}
 
 			}
@@ -434,7 +434,7 @@
 
 							}
  ],
-						"originid" : "pat-340"
+						"originid" : "pat-370"
 					}
 ,
 					"patching_rect" : [ 456.0, 546.0, 106.0, 22.0 ],
@@ -750,7 +750,7 @@
 
 			}
  ],
-		"originid" : "pat-338",
+		"originid" : "pat-368",
 		"parameters" : 		{
 			"obj-5" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
