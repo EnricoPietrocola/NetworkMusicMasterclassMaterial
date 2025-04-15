@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1333.0, 908.0 ],
+		"rect" : [ 134.0, 134.0, 1333.0, 908.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -434,11 +434,11 @@
 
 							}
  ],
-						"originid" : "pat-110"
+						"originid" : "pat-340"
 					}
 ,
-					"patching_rect" : [ 456.0, 546.0, 118.0, 22.0 ],
-					"text" : "p frequencyVariation"
+					"patching_rect" : [ 456.0, 546.0, 106.0, 22.0 ],
+					"text" : "p positionVariation"
 				}
 
 			}
@@ -750,7 +750,7 @@
 
 			}
  ],
-		"originid" : "pat-108",
+		"originid" : "pat-338",
 		"parameters" : 		{
 			"obj-5" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
