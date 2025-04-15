@@ -15,12 +15,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-66",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 342.0, 250.0, 50.0, 22.0 ],
-					"text" : "100"
+					"patching_rect" : [ 342.0, 250.0, 50.0, 36.0 ],
+					"text" : "Connected"
 				}
 
 			}
@@ -97,7 +98,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 457.0, 509.0, 146.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Modifiche alla frequenza"
 				}
 
@@ -317,7 +317,7 @@
 
 							}
  ],
-						"originid" : "pat-402"
+						"originid" : "pat-148"
 					}
 ,
 					"patching_rect" : [ 291.5, 508.0, 118.0, 22.0 ],
@@ -457,8 +457,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 291.5, 578.0, 73.0, 22.0 ],
-					"text" : "cycle~ 5000"
+					"patching_rect" : [ 291.5, 578.0, 66.0, 22.0 ],
+					"text" : "cycle~ 300"
 				}
 
 			}
@@ -631,7 +631,7 @@
 
 			}
  ],
-		"originid" : "pat-370",
+		"originid" : "pat-146",
 		"parameters" : 		{
 			"obj-5" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
